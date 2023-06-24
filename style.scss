@@ -1,8 +1,60 @@
-select {
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import 'src/header.scss';  
+@import 'src/home.scss';      
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #043873;
+    --lightPrimary: #4F9CF9;
+    --warning: #FFE492;
+    --lightBlue: #A7CEFC;
+    --white: #FFFFFF;
+    --black: #212529;
+    --inter: 'Inter', sans-serif;
+    --dmSans:'DM Sans', sans-serif;
+}
+
+.container {
+    width: 1482px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 18px 32px;
     border: none;
-    outline: none;
-    option{
-        font-size: 18px;
-        background-color: blueviolet;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: var(--inter);
+    text-transform: capitalize;
+    a {
+        text-decoration: none;
+    }
+}
+
+.light--btn {
+    background-color: var(--lightPrimary);
+    a {
+        color: var(--white);
+    }
+}
+
+.warning--btn {
+    background-color: var(--warning);
+    a {
+        color: var(--primary);
     }
 }

@@ -1,21 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WhitePace</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="https://yandex.ru/images/search?pos=16&from=tabbar&img_url=https%3A%2F%2Flinuxtalks.co%2Fimages%2F122%2Foriginal.jpg&text=Link+into+option+in+next&rpt=simage&lr=10335" alt="there is img">
-            </div>
-            <select class="option">
-                <option value="Products">Products</option>
-                <option value="Solutions">Solutions</option>
-                <option value="Resources">Resources  </option>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whitepace</title>
+    <link
+      rel="shortcut icon"
+      href="./imgs/logo-light.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container row">
+        <div class="logo">
+          <img src="./imgs/logo-dark.png" alt="there is logo" />
+        </div>
+        <nav>
+          <ul class="row">
+            <li>
+              <select name="" id="">
+                <option value=""><a href="">Products</a></option>
+                <option value=""><a href=""></a></option>
+                <option value=""><a href=""></a></option>
+              </select>
+            </li>
+            <li>
+              <select name="" id="">
+                <option value=""><a href="">Solutions</a></option>
+                <option value=""><a href=""></a></option>
+                <option value=""><a href=""></a></option>
+              </select>
+            </li>
+            <li>
+              <select name="" id="">
+                <option value=""><a href="">Resources</a></option>
+                <option value=""><a href=""></a></option>
+                <option value=""><a href=""></a></option>
+              </select>
+            </li>
+            <li>
+              <select name="" id="">
+                <option value=""><a href="">Pricing</a></option>
+                <option value=""><a href=""></a></option>
+                <option value=""><a href=""></a></option>
+              </select>
+            </li>
+            <button class="warning--btn"><a href="">Login</a></button>
+            <button class="light--btn">
+              <a href=""
+                >Try Whitepace free
+                <span><i class="bi bi-arrow-right-short"></i></span
+              ></a>
+            </button>
+          </ul>
         </nav>
-</body>
+      </div>
+    </header>
+    <section class="home">
+      <div class="container row">
+        <div class="home__info">
+          <h1 class="home__info--heading">Get More Done with whitepace</h1>
+          <p class="home__info--describe">
+            Project management software that enables your teams to collaborate,
+            plan, analyze and manage everyday tasks
+          </p>
+          <div class="home__info--btn">
+            <button class="light--btn">
+              <a href="">
+                Try Whitepace free
+                <span><i class="bi bi-arrow-right-short"></i></span
+              ></a>
+            </button>
+          </div>
+        </div>
+        <div class="home__img">
+          <img src="./imgs/home-img.png" alt="home img " />
+        </div>
+      </div>
+    </section>
+    <section class="management">
+      <div class="container row">
+        <div class="project">
+          <div class="project-info">
+            <h1 class="project-info-h1">Project Management</h1>
+            <p class="project-info-p">
+              Images, videos, PDFs and audio files are supported. Create math
+              expressions and diagrams directly from the app. Take photos with
+              the mobile app and save them to a note.
+            </p>
+          </div>
+          <div class="home__info--btn">
+            <button class="light--btn">
+              <a href="">
+                Get Started
+                <span><i class="bi bi-arrow-right-short"></i></span
+              ></a>
+            </button>
+          </div>
+        </div>
+        <div class="management-img">
+          <img src="" alt="management-img" />
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
