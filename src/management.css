@@ -1,0 +1,12 @@
+@import "../style.css";
+.part1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.part1-describe {
+  width: 672px;
+  height: 411px;
+  gap: 60px;
+}
